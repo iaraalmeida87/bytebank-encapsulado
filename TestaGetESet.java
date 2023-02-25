@@ -1,6 +1,6 @@
 public class TestaGetESet {
 	public static void main(String[] args) {
-		Conta conta = new Conta();
+		Conta conta = new Conta(6149, 12345);
 		
 		//desse modo utilizamos o método set para atribuir corretamente um número ao atributo "numero"
 		conta.setNumero(19008);
