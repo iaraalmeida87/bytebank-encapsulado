@@ -4,7 +4,7 @@ public class Conta {
 	private int agencia;
 	private int numero;
 	private Cliente titular;
-	private static int total;
+	private static int total = 0;
 	
 	public Conta() { 
 
@@ -62,5 +62,8 @@ public class Conta {
 	}
 	public Cliente getTitular() {
 		return titular;
+	}
+	public static int getTotal() {
+		return Conta.total;
 	}
 }
